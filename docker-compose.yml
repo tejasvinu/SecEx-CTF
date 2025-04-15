@@ -5,7 +5,7 @@ services:
     ports:
       - "11211:11211"
   webapp:
-    build: .
+    image: exshock/secex-ctf-webapp:latest
     ports:
       - "8888:8888"
     volumes:
